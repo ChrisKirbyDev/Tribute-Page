@@ -1,0 +1,50 @@
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-color: #2b580c;
+  text-align: center;
+
+}
+
+#title {
+
+}
+
+#img-div {
+
+}
+
+#image {
+  height: auto;
+  max-width: 25%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  text-align: left;
+  line-height: double;
+}
+
+#tribute-link {
+  text-align: center;
+}
