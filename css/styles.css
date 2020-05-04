@@ -1,11 +1,111 @@
-#image {
-  height: auto;
-  max-width: 25%;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0.8;
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.title-section {
+  background-image: url(../images/Ada_lovelace.jpg), linear-gradient(transparent, white 75%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  padding-bottom: 30%;
+  opacity: 0.9;
+  background-image: linear-gradient(to bottom, transparent);
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #ffff;
+  position: static;
+  vertical-align: text-top;
+  text-align: left;
+  padding: 5%;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 3% 5% 7% 8%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #e6a4b4;
+  color: #888888;
+}
+
+.white-section {
+  background-color: #f0f0f0;
+
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 3rem
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 10% 0%;
+}
+
+
+
+/* footer */
+
+.copyright {
+  padding-top: 1%;
+}
+
+@media (max-width: 1028px) {
+
+
+.big-heading {
+  font-size: 1.5rem;
+}
+
+  #title {
+    text-align: center;
+  }
+
+.title-section {
+    transform: rotate(0);
+  }
 }
