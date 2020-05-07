@@ -21,7 +21,7 @@ p{
 /* headings */
 
 .title-section {
-  background-image: url(../images/ada_lovelace.jpg);
+  background-image: url(https://raw.githubusercontent.com/ChrisKirbyDev/Tribute-Page/master/images/Ada_Lovelace.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
